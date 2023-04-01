@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.asidebar{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 200px;
+    height: 100vh;
+    background-color: #cef3ff;
+}
+
+.logout{   
+    background-color: #cef3ff;
+    border: none;
+    position: relative;
+    top: 580px;
+    left: 40px;
+}
+
+.logout:hover{
+    cursor: pointer;
+}
+
+.Totalcontact{
+    position: relative;
+    top: 64px;
+    left: 10px;
+}
+
+.dashboard{
+    position: relative;
+    width: 120px;
+    top: 30px;
+    left: 35px;
+}
+
+b{
+    color: #7dc5ff;
+    position: relative;
+    left: 43px;
+    top: 20px;
+    font-size: 25px;
+    font-style: normal;
+    font-family: monospace;
+}
